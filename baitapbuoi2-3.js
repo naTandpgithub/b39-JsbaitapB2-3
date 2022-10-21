@@ -53,7 +53,7 @@ document.getElementById("submitVnd").onclick = function () {
   result += "<p>Đổi được :  " + tinhvnd + "$</p>";
 
   // xuất ra
-  document.getElementById("infob4").innerHTML = result;
+  document.getElementById("infoVnd").innerHTML = result;
 };
 
 // đầu vào USD =>>VND
@@ -84,12 +84,12 @@ document.getElementById("submitb4").onclick = function () {
   // chu vi
   var chuvi = (cdb4 + crb4) * 2;
 
-  var result = "";
-  result += "<p>Diện tích : " + dientich + " m2</p>";
-  result += "<br />";
-  result += "<p>Chu vi : " + chuvi + "m</p>";
+  var resultb4 = "";
+  resultb4 += "<p>Diện tích : " + dientich + " m2</p>";
+  resultb4 += "<br />";
+  resultb4 += "<p>Chu vi : " + chuvi + "m</p>";
   //xuất ra
-  document.getElementById("infob4").innerHTML = result;
+  document.getElementById("infob4").innerHTML = resultb4;
 };
 
 ////
